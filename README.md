@@ -1,23 +1,19 @@
 # Diaspora for Franz 5
 
-This is the [Franz](https://meetfranz.com/) 5 recipe for Mastodon.
+This is the [Franz](https://meetfranz.com/) 5 recipe for Diaspora.
 
-The code is just boilerplate generic Franz-recipe stuff. It's copied from https://github.com/sharkpp/franz-recipe-mastodon and modified to work with Diaspora.
+The code is just boilerplate generic Franz-recipe stuff. In this case, it's copied from https://github.com/sharkpp/franz-recipe-mastodon and modified to work with Diaspora. There is absolutely no magic going on here.
 
 ## REQUIRED
 
 * [Franz](https://meetfranz.com/) 5 or later
-  Do not support older version.
-* [Diaspora](https://diasporafoundation.org/) account
-  Do not have an account?
-  Choose from "[Diaspora Pods](https://podupti.me/)"!
+  This does not work with older versions.
+* A [Diaspora](https://diasporafoundation.org/) account. If you need an account, choose one from a list of [Diaspora Pods](https://podupti.me/).
   Note that you can read/follow users from other pods, so your choice of pod isn't all that crucial. Just pick one with a TOS with which you agree.
 
 ## HOW TO INSTALL
 
-### DEVELOP VERSION
-
-1. download the `franz-recipe-diaspora` folder.
+1. download all of the files into a `franz-recipe-diaspora` folder.
 2. Open the Franz Plugins folder on your machine (note **that this `dev` directory may not exist yet, and you must create it**):
   * Mac: `~/Library/Application Support/Franz/recipes/dev/`
   * Windows: `%AppData%\Franz\recipes\dev\`
@@ -36,13 +32,15 @@ Click the Add Service (+) button. If Franz recognizes you have a \dev\ folder, y
 
 ### SETTINGS
 
-In the "Service Name" field, add whatever name you want to call your tab.
+In the "Service Name" field, add whatever name you want to call your tab. Mine is "Pluspora"
 
-In the "Team" field, add the URL of your Diaspora pod minus the "https://".
+In the "Team" field, add the URL of your Diaspora pod minus the "https://". Mine is "Pluspora.com"
 
 ### SIGN-IN
 
-Just sign into the pod as normally.
+Just sign into the pod as normal.
+
+If you want to follow me, my Diaspora name is @johnhattan@pluspora.com
 
 ## LICENSE
 
