@@ -40,10 +40,10 @@ In the "Team" field, add the URL of your Diaspora pod minus the "https://". Mine
 
 Just sign into the pod as normal.
 
-<pre>If you want to follow me, my Diaspora name is @johnhattan\@pluspora.com</pre>
-
 ## LICENSE
 
 &copy; 2018 John Hattan
 
 This software is licensed under a [The MIT License](http://opensource.org/licenses/MIT). Feel free to do what you want with it.
+
+<pre>If you want to follow me, my Diaspora name is @johnhattan@pluspora.com</pre>
