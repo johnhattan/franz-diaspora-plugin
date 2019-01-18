@@ -14,11 +14,11 @@ The code is just boilerplate generic Franz-recipe stuff. In this case, it's copi
 ## HOW TO INSTALL
 
 1. download all of the files into a `franz-recipe-diaspora` folder.
-2. Open the Franz Plugins folder on your machine (note **that this `dev` directory may not exist yet, and you must create it**):
+2. Open the Franz Recipes folder on your machine (note **that this `dev` folder may not exist. If it's not there, create one.**):
   * Mac: `~/Library/Application Support/Franz/recipes/dev/`
   * Windows: `%AppData%\Franz\recipes\dev\`
   * Linux: `~/.config/Franz/recipes/dev`
-3. Copy the `franz-recipe-diaspora` folder into the plugins directory
+3. Copy the `franz-recipe-diaspora` folder into the recipes\dev folder
 4. Reload Franz
 
 See [Franz Recipe Documentation / Overview](https://github.com/meetfranz/plugins/blob/master/docs/integration.md)
@@ -28,7 +28,7 @@ See [Franz Recipe Documentation / Overview](https://github.com/meetfranz/plugins
 
 ### ADD NEW SERVICE
 
-Click the Add Service (+) button. If Franz recognizes you have a \dev\ folder, you should have a "Development" tab containing the recipe.
+After reloading Franz, click the Add Service (+) button. If Franz recognizes you have a \dev\ folder, you should have a "Development" tab containing the recipe.
 
 ### SETTINGS
 
@@ -40,7 +40,7 @@ In the "Team" field, add the URL of your Diaspora pod minus the "https://". Mine
 
 Just sign into the pod as normal.
 
-If you want to follow me, my Diaspora name is @johnhattan@pluspora.com
+If you want to follow me, my Diaspora name is '@johnhattan@pluspora.com'
 
 ## LICENSE
 
