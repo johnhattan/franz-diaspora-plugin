@@ -1,0 +1,17 @@
+{
+  "id": "diaspora",
+  "name": "Diaspora",
+  "version": "1.0.0",
+  "description": "Diaspora recipe for Franz 5 or later",
+  "main": "index.js",
+  "author": "John Hattan",
+  "license": "MIT",
+  "repository": "https://github.com/",
+  "config": {
+    "serviceURL": "https://{teamId}",
+    "hasTeamId": true,
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "message": "Please enter the URL of your Diaspora pod (minus the https://) in the team name input box."
+  }
+}
