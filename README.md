@@ -40,7 +40,7 @@ In the "Team" field, add the URL of your Diaspora pod minus the "https://". Mine
 
 Just sign into the pod as normal.
 
-If you want to follow me, my Diaspora name is \@johnhattan\@pluspora.com'
+<pre>If you want to follow me, my Diaspora name is @johnhattan\@pluspora.com</pre>
 
 ## LICENSE
 
